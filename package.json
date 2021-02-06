@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-page",
+  "version": "1.0.0",
+  "description": "my portfolio page",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliceclaire23/portfolio.git"
+  },
+  "author": "Alice-Claire Earle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aliceclaire23/portfolio/issues"
+  },
+  "homepage": "https://github.com/aliceclaire23/portfolio#readme"
+}
