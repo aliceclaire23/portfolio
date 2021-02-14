@@ -8,8 +8,11 @@ function App() {
   return (
       <div>
         <Introduction />
+        <hr />
         <DeveloperJourney />
+        <hr />
         <CreativeEndeavours />
+        <hr />
         <FindMe />
       </div>
   );
