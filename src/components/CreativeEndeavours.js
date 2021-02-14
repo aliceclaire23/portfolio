@@ -1,4 +1,10 @@
 import React from 'react';
+import bLSC1 from '../images/art/BLSC1.png'
+import ellewoods from '../images/art/ElleWoods.jpg'
+import inkling from '../images/art/Inkling.JPG'
+import inktober from '../images/art/Inktober.png'
+import mermaid from '../images/art/Mermaid.png'
+import pole from '../images/art/Pole.png'
 
 const CreativeEndeavours = () => {
     return (
@@ -17,6 +23,15 @@ const CreativeEndeavours = () => {
             <p>I’ve been attending <a href="https://linktr.ee/Bodylovesketchclub">BodyLoveSketchClub</a> life drawing classes since October 2020, partly as a way to engage with other likeminded people during lockdown, but also to find new inspiration.</p>
 
             <p>I have a dedicated arty instagram for my various scribbles and sketches by the name of <a href="https://www.instagram.com/alicedoesartythings/">@alicedoesartythings</a>.</p>
+
+            <div>
+                <img src={bLSC1}  alt="sketch" />
+                <img src={ellewoods} alt="sketch" />
+                <img src={inkling} alt="sketch" />
+                <img src={inktober} alt="sketch" />
+                <img src={mermaid} alt="sketch" />
+                <img src={pole} alt="sketch" />
+            </div>
         </div>
     )
 };
