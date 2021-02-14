@@ -1,7 +1,7 @@
 import './App.css';
 import Introduction from './components/Introduction';
 import DeveloperJourney from './components/DeveloperJourney';
-import ArtisticEndeavours from './components/ArtisticEndeavours';
+import CreativeEndeavours from './components/CreativeEndeavours';
 import FindMe from './components/FindMe';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
       <div>
         <Introduction />
         <DeveloperJourney />
-        <ArtisticEndeavours />
+        <CreativeEndeavours />
         <FindMe />
       </div>
   );
