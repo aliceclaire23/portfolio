@@ -1,9 +1,24 @@
 import React from 'react';
+import { useLayoutEffect } from 'react/cjs/react.development';
+import daisie from '../images/daisie.png'
+import insta from '../images/insta.png'
+import twitter from '../images/twitter.png'
 
 const FindMe = () => {
     return (
         <div>
             <h3>Find me elsewhere on the internet:</h3>
+            <div >
+                <a href="https://www.daisie.com/aliceclaire23" >
+                    <img src={daisie} alt="daisie logo icon" className="icon" />
+                </a>
+                <a href="https://www.instagram.com/alice.claire.23/" >
+                    <img src={insta} alt="insta logo icon" className="icon" />
+                </a>
+                <a href="https://www.twitter.com/aliceclaire23" >
+                    <img src={twitter} alt="twitter logo icon" className="icon" />
+                </a>
+            </div>
         </div>
     )
 };
