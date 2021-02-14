@@ -1,8 +1,8 @@
 import React from 'react';
 import { useLayoutEffect } from 'react/cjs/react.development';
-import daisie from '../images/daisie.png'
-import insta from '../images/insta.png'
-import twitter from '../images/twitter.png'
+import daisie from '../images/icons/daisie.png'
+import insta from '../images/icons/insta.png'
+import twitter from '../images/icons/twitter.png'
 
 const FindMe = () => {
     return (
