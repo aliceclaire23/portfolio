@@ -1,13 +1,130 @@
 body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-      sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-      monospace;
+  margin: 0;
+  padding: 5rem 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 18px;
+}
+
+
+
+/* Text styles */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Caveat', cursive;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.heading {
+  margin: 0 auto;
+  color: teal;
+  font-weight: 800;
+}
+
+p, li {
+  font-family: 'Open Sans', sans-serif;
+  color: darkslategray;
+}
+
+
+
+/* Section break styles */
+
+hr {
+  transform: rotate(5deg);
+  transform-origin: 0% 0%;
+  border: 5px solid black;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 5rem;
+  width: 100%;
+}
+
+hr:nth-of-type(even) {
+  transform: rotate(-5deg);
+  margin: 5rem 0 0 0;
+}
+
+
+
+/* Image styles */
+
+.image {
+  max-width: 400px;
+}
+
+.image__portrait {
+  float: right;
+  shape-outside: circle(50%);
+  width: 40%;
+}
+
+/* TODO: different sizing for different screen widths */
+.image__art {
+  max-width: 25%;
+  min-width: 100px;
+  height: 100%;
+}
+
+.icon {
+  width: 100px;
+}
+
+
+
+/* Section styles */
+
+.section {
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+.section__text { 
+  width: 50%;
+}
+
+.section__images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5rem 0;
+}
+
+.section__icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem auto;
+}
+
+.section__findMe {
+  padding-top: 2.5rem;
+}
+
+.section--left {
+  float: left;
+  margin-right: 2rem;
+  margin-bottom: 5rem;
+}
+
+.section--right {
+  float: right;
+  margin-left: 2rem;
+}
+.section--center {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
 }
