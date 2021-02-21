@@ -6,13 +6,13 @@ import FindMe from './components/FindMe';
 
 function App() {
   return (
-      <div>
+      <div className="main"> 
         <Introduction />
-        <hr />
+        <hr size="0" noshade />
         <DeveloperJourney />
-        <hr />
+        <hr size="0" noshade />
         <CreativeEndeavours />
-        <hr />
+        <hr size="0" noshade />
         <FindMe />
       </div>
   );
